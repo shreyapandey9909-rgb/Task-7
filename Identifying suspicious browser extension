@@ -1,0 +1,96 @@
+ Browser Extensions Security Audit
+
+This Task documents a practical security task: reviewing, auditing, and cleaning up browser extensions to improve privacy, security, and browser performance. The process involved identifying potentially malicious or unnecessary browser add-ons, understanding the risks of browser-based threats, and applying security best practices.
+
+ Objectives
+
+- Review all installed browser extensions
+- Check their permissions and user reviews
+- Identify and remove suspicious or unused extensions
+- Analyze how malicious extensions can compromise user security
+- Document actions taken and improvements noticed
+
+# Step-by-Step Process
+
+ 1. Open Extension Manager
+
+Opened the browser’s extension manager:
+
+- Microsoft Edge: edge://extensions/
+
+2. Review Installed Extensions
+
+Manually reviewed each installed extension:
+
+- Checked purpose and usage
+- Verified if it was still needed
+- Made note of unknown or untrusted extensions
+
+3. Check Permissions and Reviews
+
+For each extension:
+
+- Clicked “Details” to see permissions
+- Checked what data it could access (e.g., “Read browsing history”)
+- Viewed user reviews on the Chrome Web Store
+
+Flagged extensions that:
+- Requested unnecessary or risky permissions
+- Had low ratings or bad user feedback
+- Came from unknown publishers
+
+4. Identify Unused or Suspicious Extensions
+
+Identified the following issues:
+
+| Extension Name       | Issue                             | Action     |
+|----------------------|------------------------------------|------------|
+| PDF Converter Pro    | Excessive permissions, bad reviews | Removed    |
+| Google docs offline  | Not used in 6+ months              | Removed    |
+| Dark Reader          | Trusted and regularly used         | Kept       |
+| Grammarly            | Trusted, frequently used           | Kept       |
+
+5. Remove Suspicious/Unnecessary Extensions
+
+Used the “Remove” button next to each extension.
+
+Removed Extensions:
+
+- `PDF Converter Pro`
+- `Google docs offline`
+
+ 6. Restart Browser & Monitor Improvements
+
+After removal:
+
+- Restarted the browser
+- Noticed:
+  - Faster loading times
+  - No more random pop-up ads
+  - Cleaner browsing experience
+
+ Research: How Malicious Extensions Harm Users
+
+Malicious browser extensions can:
+
+| Threat                        | Description |
+|-------------------------------|-------------|
+| Data Theft             | Capture keystrokes, passwords, and personal info |
+| Tracking               | Monitor browsing behavior and sell data |
+| Ad Injection           | Show unwanted ads or redirect pages |
+| Malware Distribution   | Download harmful scripts or files |
+| Cryptojacking          | Use your device to mine cryptocurrency |
+| Botnet Inclusion       | Join your browser/device to a hacker-controlled network |
+
+ Summary of Actions
+
+ Browser: Microsoft Edge
+ Date: October 2, 2025
+
+ Reviewed 6 extensions
+ Checked permissions and reviews
+ Removed:
+  - PDF Converter Pro
+  - Google docs offline
+Restarted browser
+Observed improved performance
